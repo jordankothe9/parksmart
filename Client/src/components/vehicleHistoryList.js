@@ -11,7 +11,7 @@ export default function VehicleHistoryList(){
 
     const getVehicleHistoryData = async () => {
       try {
-        const vehicleHistoryData = await axios.get("http://localhost:80/api/get")
+        const vehicleHistoryData = await axios.get("http://www.landerparking.com:3002/api/get")
           setVehicles(vehicleHistoryData.data)
         }catch (err) {
           console.error(err.message);

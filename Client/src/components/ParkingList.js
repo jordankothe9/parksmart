@@ -10,7 +10,7 @@ export default function ParkingList(){
     
     const getParkingData = async () => {
       try {
-        const userParking = await axios.get("http://localhost:80/api/getparking")
+        const userParking = await axios.get("http://www.landerparking.com:3002/api/getparking")
           setParking(userParking.data)
         }catch (err) {
         console.error(err.message);

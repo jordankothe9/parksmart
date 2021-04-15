@@ -10,7 +10,7 @@ export default function VehicleList(){
 
     const getCurrentVehicleData = async () => {
       try {
-        const currentVehicleData = await axios.get("http://localhost:80/api/get")
+        const currentVehicleData = await axios.get("http://www.landerparking.com:3002/api/getcurrent")
           setVehicles(currentVehicleData.data)
         }catch (err) {
           console.error(err.message);
