@@ -34,7 +34,6 @@ export default function VehicleList(){
             if(val.entry == "true"){
               return <div key = {val.id}>
               {" "}
-              <p>The value of this boy is -{val.id}- yay</p>
               <div id = "currentVehicles">
               <Card style={{ width: "18rem" }}>
                 <Card.Body>
