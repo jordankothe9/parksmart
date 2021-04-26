@@ -1,0 +1,7 @@
+
+Client/node_modules/*
+Client/env
+Client/src/.env
+Client/.env
+env
+Client/src/components/.env
